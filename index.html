@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Index of the Numbers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="bg-container flex flex-col h-screen items-center justify-center">
+        <h1 class="text-3xl font-bold mb-4">
+            Find the Index of the Numbers
+        </h1>
+        <span class="text-xl font-semibold">[17, 31, 77, 20, 63]</span>
+        <div class="m-4">
+            <input type="number" class="border-2 p-2 border-zinc-400 rounded font-semibold" name="number" id="number" />
+            <button class="border-0 p-2 rounded bg-sky-500 text-white font-semibold w-16" onclick="onFindIndex()">Find</button>
+        </div>
+
+        <div class="flex items-center justify-center">
+            <h1 class="text-xl font-semibold mr-2">Index of number:</h1>
+            <span id="indexOfNum" class="w-96 text-xl font-bold text-black pl-3 flex items-center h-12 bg-lime-50 rounded"></span>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
